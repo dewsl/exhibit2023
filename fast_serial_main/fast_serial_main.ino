@@ -288,12 +288,14 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 //  get_data(32,1,g_final_dump);  //v2 accel 1
-  Serial.print(">");
-  get_data(11,1,g_final_dump);  //v3 accel 1
-  Serial.print("<");
-  delay(100);
-//  get_data(41,1,g_final_dump);  //v4 accel 1
-//  get_data(51,1,g_final_dump);  //v5 accel 1
+  // Serial.print(">");
+  // get_data(11,1,g_final_dump);  //v3 accel 1
+  // Serial.print("<");
+  // delay(100);
+  get_data(51,1,g_final_dump);  //v5 accel 1
+  get_data(52,1,g_final_dump);  //v5 accel 2
+  delay(1000);
+  Serial.println("");
     
 //  get_data(2,1,g_final_dump);
 //  get_data(3,1,g_final_dump);
